@@ -1,0 +1,109 @@
+* {
+  font-family: "Exo", sans-serif;
+}
+
+.container-main {
+  border-radius: 3px;
+  margin-top: 30px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.search-bar {
+  margin-left: 90px;
+  padding: 20px;
+}
+.location {
+  padding-top: 20px;
+  text-align: center;
+  font-size: 40px;
+  font-family: "Exo", sans-serif;
+}
+
+.date-today {
+  text-align: center;
+}
+
+.wrapper {
+  padding: 10px;
+}
+
+.container-main-temp {
+  text-align: center;
+  margin: 30px 100px 40px 100px;
+  padding: 13px;
+  border-radius: 7px;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.container-main-temp .temp-icon {
+  font-size: 70px;
+  line-height: 1px;
+}
+
+.container-main-temp .temp {
+  font-size: 40px;
+}
+
+.container-main-temp .temp-description {
+  font-size: 13px;
+  text-transform: uppercase;
+}
+
+.header-future,
+.header-next {
+  font-size: 15px;
+  display: inline;
+  padding-left: 10px;
+}
+
+.header-next {
+  padding-left: 250px;
+  font-size: 12px;
+  font-weight: bold;
+}
+.container-small {
+  border-radius: 7px;
+  padding: 10px;
+  margin: 5px;
+
+  text-align: center;
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+
+.date-small {
+  font-size: 10px;
+}
+
+.icon-small {
+  font-size: 30px;
+}
+
+.temp-small {
+  font-size: 12px;
+}
+
+.forcast-main-container {
+  margin: 30px 20px 20px 20px;
+
+  box-shadow: rgba(67, 71, 85, 0.27) 0px 0px 0.25em,
+    rgba(90, 125, 188, 0.05) 0px 0.25em 1em;
+}
+.row-container {
+  padding: 13px;
+}
+
+.degrees {
+  font-size: 20px;
+  line-height: 24px;
+  display: inline-block;
+}
+.celsius,
+.fahrenheit {
+  cursor: pointer;
+}
+.chosen {
+  font-weight: bold;
+}
